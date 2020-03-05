@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <Route path='/'  exact render={main} />
       <Route path='/detail'  exact render={detail} />
-      <Route path='/pagination'  exact render={pagination} />
+      <Route path='/pagination'  exact component={pagination} />
       <Route path='/demo'  exact component={ShoppingList} props={'ssssss'} />
     </BrowserRouter>
   );
